@@ -1,0 +1,255 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun May  8 17:13:25 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-b8a80c60-bc33-4580-a1d6-dbfb3b133ce1.sock
+# environment
+VSCODE_CWD = /home/socktt
+# environment
+WINDOWPATH = 1
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/socktt/programming/uefi_kernel
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/socktt
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/socktt/.config/Code - OSS/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/socktt/.Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/socktt/programming/uefi_kernel
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST := Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 582
+# environment
+XDG_SESSION_TYPE = tty
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-oss.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/socktt/opt/cross/bin:/home/socktt/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+# default
+MAKEFILES := 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+INVOCATION_ID = 420f76f0ebb0435594d2af25e48c7985
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_SEAT = seat0
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = socktt
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 452
+# environment
+DISPLAY = :0
+# environment
+USER = socktt
+# default
+MAKE_VERSION := 4.3
+# environment
+_ = /usr/bin/make
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/socktt
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-0a713f18-1.67.0-main.sock
+# environment
+TERM = linux
+# environment
+XDG_SESSION_ID = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# variable set hash-table stats:
+# Load=79/1024=8%, Rehash=0, Collisions=3/112=3%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 2068, inode 7602177): 13 files, no impossibilities.
+
+# 13 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-08 17:13:16.285580702
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'Makefile', line 2):
+	x86_64-elf-gcc -c kernel.c -o kernel.o -ffreestanding -O2 -Wall -Wextra
+	x86_64-elf-gcc -c video.c -o video.o -ffreestanding -O2
+	x86_64-elf-gcc kernel.o video.o font.o -o kernel.elf -nostdlib -lgcc
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=4/1024=0%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 18 / storage = 155 B / avg = 8 B
+# current buf: size = 8162 B / used = 155 B / count = 18 / avg = 8 B
+
+# strcache performance: lookups = 25 / hit rate = 28%
+# hash-table stats:
+# Load=18/8192=0%, Rehash=0, Collisions=0/25=0%
+# Finished Make data base on Sun May  8 17:13:25 2022
+
+ 

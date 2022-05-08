@@ -1,0 +1,386 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+ 
+
+# Make data base, printed on Sun May  8 16:11:41 2022
+
+# Variables
+
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-7d06d73d-cbb3-471e-bab5-6c6ce242e4d5.sock
+# environment
+VSCODE_CWD = /home/socktt
+# environment
+WINDOWPATH = 1
+# makefile (from 'uefi/Makefile', line 54)
+LIBS = -out:$(TARGET)
+# default
+MAKE_COMMAND := make
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/socktt/programming/uefi_bootloader
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+MAIL = /var/spool/mail/socktt
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# makefile (from 'uefi/Makefile', line 22)
+LIBOBJS = $(TMP2:.S=.o)
+# environment
+VSCODE_LOG_STACK = false
+# automatic
+%F = $(notdir $%)
+# environment
+VSCODE_CODE_CACHE_PATH = /home/socktt/.config/Code - OSS/CachedData/57fd6d0195bb9b9d1b49f6da5db789060795de47
+# environment
+LANG = C
+# environment
+XAUTHORITY = /home/socktt/.Xauthority
+# default
+.LOADED := 
+# makefile (from 'uefi/Makefile', line 11)
+TMP = $(SRCS:.c=.o)
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/socktt/programming/uefi_bootloader
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# makefile (from 'uefi/Makefile', line 9)
+SRCS = $(wildcard *.c) $(wildcard *.S)
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from 'uefi/Makefile', line 1)
+MAKEFILE_LIST := Makefile uefi/Makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 585
+# environment
+XDG_SESSION_TYPE = tty
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-oss.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# makefile (from 'uefi/Makefile', line 12)
+OBJS = $(TMP:.S=.o)
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 3
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/socktt/opt/cross/bin:/home/socktt/.cargo/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl
+# default
+MAKEFILES := 
+# environment
+MOTD_SHOWN = pam
+# automatic
+^F = $(notdir $^)
+# environment
+INVOCATION_ID = 7ca3e637ea5c490499242c32148b7183
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_SEAT = seat0
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+LOGNAME = socktt
+# environment
+XDG_VTNR = 1
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 416
+# makefile (from 'uefi/Makefile', line 4)
+ARCH = $(MYARCH)
+# environment
+DISPLAY = :0
+# environment
+USER = socktt
+# default
+MAKE_VERSION := 4.3
+# makefile (from 'uefi/Makefile', line 21)
+TMP2 = $(LIBSRCS:.c=.o)
+# 'override' directive
+.SHELLSTATUS := 0
+# makefile (from 'uefi/Makefile', line 53)
+LDFLAGS = -subsystem:efi_application -nodefaultlib -dll -entry:uefi_init uefi/*.o
+# environment
+_ = /usr/bin/make
+# makefile (from 'uefi/Makefile', line 64)
+ALLTARGETS = uefi/crt_$(ARCH).o uefi/libuefi.a $(OBJS) $(TARGET)
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'uefi/Makefile', line 52)
+CFLAGS = -fshort-wchar -fno-strict-aliasing -ffreestanding -fno-stack-protector -fno-stack-check -I. -I./uefi -I/usr/include -I/usr/include/efi -I/usr/include/efi/protocol -I/usr/include/efi/$(ARCH) -D__$(ARCH)__ -DHAVE_USE_MS_ABI -mno-red-zone --target=$(ARCH)-pc-win32-coff -Wno-builtin-requires-header -Wno-incompatible-library-redeclaration -Wno-long-long
+# environment
+XDG_SESSION_CLASS = user
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/socktt
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-0a713f18-1.67.0-main.sock
+# environment
+TERM = linux
+# environment
+XDG_SESSION_ID = 1
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# makefile (from 'uefi/Makefile', line 2)
+MYARCH = $(shell uname -m | sed s,i[3456789]86,ia32,)
+# makefile (from 'Makefile', line 1)
+TARGET = Bootx64.efi
+# makefile (from 'uefi/Makefile', line 56)
+LD = lld -flavor link
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# makefile (from 'uefi/Makefile', line 20)
+LIBSRCS = $(filter-out $(wildcard crt_*.c),$(wildcard *.c)) $(wildcard *.S)
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
+# makefile (from 'uefi/Makefile', line 55)
+CC = clang
+# makefile (from 'uefi/Makefile', line 57)
+OBJCOPY = true
+# variable set hash-table stats:
+# Load=96/1024=9%, Rehash=0, Collisions=12/179=7%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# uefi (device 2068, inode 4326138): 6 files, no impossibilities so far.
+# . (device 2068, inode 4326153): 8 files, no impossibilities.
+# /usr/lib/llvm: could not be stat'd.
+
+# 14 files, no impossibilities in 3 directories.
+
+# Implicit Rules
+
+%.o: %.c
+#  recipe to execute (from 'uefi/Makefile', line 93):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+%.o: %.S
+#  recipe to execute (from 'uefi/Makefile', line 96):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# 2 implicit rules, 0 (0.0%) terminal.
+# Files
+
+distclean: clean
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'uefi/Makefile', line 111):
+	@rm uefi/*.o uefi/libuefi.a 2>/dev/null || true
+
+# 'override' directive
+uefi/libuefi.a: .SHELLSTATUS := 0
+uefi/libuefi.a:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := uefi/libuefi.a
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+ 
+# Load=9/32=28%, Rehash=0, Collisions=1/18=6%
+#  recipe to execute (from 'uefi/Makefile', line 70):
+	@make --no-print-directory -C uefi libuefi.a USE_GCC=$(USE_GCC) ARCH=$(ARCH)
+
+Bootx64.efi.so: main.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'uefi/Makefile', line 89):
+	$(LD) $(LDFLAGS) $^ $(LIBS)
+	@rm *.lib 2>/dev/null || true
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-08 14:11:20.042428546
+#  File has been updated.
+#  Successfully updated.
+
+libuefi.lib: main.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+libuefi.a: main.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'uefi/Makefile', line 79):
+	@true
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'uefi/Makefile', line 105):
+	@rm $(TARGET) *.o *.a *.lib *.elf $(LIBOBJS) 2>/dev/null || true
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: uefi/crt_x86_64.o uefi/libuefi.a main.o Bootx64.efi
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/9=0%
+
+build:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'uefi/Makefile', line 99):
+	@mkdir ../build ../build/uefi 2>/dev/null || true
+	@cp crt_$(ARCH).o ../build/uefi/crt0.o
+	@cp elf_$(ARCH)_efi.lds ../build/uefi/link.ld
+	@cp libuefi.a uefi.h ../build/uefi
+
+uefi/crt_x86_64.o: uefi/crt_x86_64.c
+#  Implicit rule search has been done.
+#  Implicit/static pattern stem: 'uefi/crt_x86_64'
+#  Last modified 2022-05-07 20:09:52.572132805
+#  File has been updated.
+#  Successfully updated.
+#  recipe to execute (from 'uefi/Makefile', line 93):
+	$(CC) $(CFLAGS) -c $< -o $@
+
+# Not a target:
+uefi/crt_x86_64.c:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-07 20:07:56.892134967
+#  File has been updated.
+#  Successfully updated.
+
+# Not a target:
+main.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+uefi/Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-05-07 20:07:56.892134967
+#  File has been updated.
+#  Successfully updated.
+
+Bootx64.efi: Bootx64.efi.so
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=16/1024=2%, Rehash=0, Collisions=1/44=2%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 33 / storage = 327 B / avg = 9 B
+# current buf: size = 8162 B / used = 327 B / count = 33 / avg = 9 B
+
+# strcache performance: lookups = 62 / hit rate = 46%
+# hash-table stats:
+# Load=33/8192=0%, Rehash=0, Collisions=0/62=0%
+# Finished Make data base on Sun May  8 16:11:41 2022
+
+ 

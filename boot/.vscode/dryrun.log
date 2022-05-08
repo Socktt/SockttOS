@@ -1,0 +1,13 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/socktt/programming/uefi_bootloader'
+ 
+clang -fshort-wchar -fno-strict-aliasing -ffreestanding -fno-stack-protector -fno-stack-check -I. -I./uefi -I/usr/include -I/usr/include/efi -I/usr/include/efi/protocol -I/usr/include/efi/x86_64 -D__x86_64__ -DHAVE_USE_MS_ABI -mno-red-zone --target=x86_64-pc-win32-coff -Wno-builtin-requires-header -Wno-incompatible-library-redeclaration -Wno-long-long -c uefi/crt_x86_64.c -o uefi/crt_x86_64.o
+ 
+make --no-print-directory -C uefi libuefi.a USE_GCC= ARCH=x86_64
+ 
+clang -fshort-wchar -fno-strict-aliasing -ffreestanding -fno-stack-protector -fno-stack-check -I. -I./uefi -I/usr/include -I/usr/include/efi -I/usr/include/efi/protocol -I/usr/include/efi/x86_64 -D__x86_64__ -DHAVE_USE_MS_ABI -mno-red-zone --target=x86_64-pc-win32-coff -Wno-builtin-requires-header -Wno-incompatible-library-redeclaration -Wno-long-long -c main.c -o main.o
+ 
+lld -flavor link -subsystem:efi_application -nodefaultlib -dll -entry:uefi_init uefi/*.o main.o -out:Bootx64.efi
+rm *.lib 2>/dev/null || true
+make: Leaving directory '/home/socktt/programming/uefi_bootloader'
+ 
